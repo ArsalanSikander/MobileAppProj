@@ -62,6 +62,10 @@ const AdmLogin = ({ navigation }) => {
             <View>
                 <Button title="Sign In" onPress={handleLogin} />
             </View>
+            <View>
+                <Text>Email is admin@mail.com and Pass is 123456789</Text>
+            </View>
+
         </View>
     )
 }
